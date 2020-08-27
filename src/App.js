@@ -1,25 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Homepage from './comp/cores/Homepage'
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
+import ScrollToTop from "react-router-scroll-top"
+import BeachFront from './comp/cores/BeachFront'
+import AboutUs from "./comp/cores/AboutUs"
+import Cruise from './comp/cores/Cruise'
+import Menu from './comp/cores/Menu'
+import Footer from "./comp/cores/Footer"
+import Cta from "./comp/cores/Cta"
 
 function App() {
+
+
+  
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Router onUpdate={() => window.scrollTo(0, 0)}>
+
+
+    <ScrollToTop>
+      <div className="App">
+        <Switch>
+          <Route path="/" exact component={Homepage}/>
+          <Route path="/BeachFront" component={BeachFront}/>
+          <Route path="/CruiseShip" component={Cruise}/>
+          <Route path="/AboutUs" component={AboutUs}/>
+
+        <Redirect to="/" />
+        </Switch>
+        <Menu/>
+        <Cta/>
+       <Footer/>
+      </div>
+      </ScrollToTop>
+
+  </Router>
   );
 }
 

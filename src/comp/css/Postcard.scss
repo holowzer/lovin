@@ -1,0 +1,137 @@
+.postcardContainer{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .topPostcard{
+        height: 200px;
+        width: 80%;
+        position: relative;
+        h2{
+            width: 25%;
+            position: absolute;
+            text-transform: uppercase;
+            left: 0;
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        .emptyBoi{
+            width: 16%;
+        }
+        p{
+            width: 30%;
+            position: absolute;
+            right: 0;
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+    }
+    .line{
+        width: 100%;
+        height: 1px;
+        margin: 30px 0;
+        background: rgb(165, 165, 165);
+    }
+    .photoPostcard{
+        width: 80%;
+        height: 550px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .descriptionImg{
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        text-align: center;
+        span{
+            text-transform: uppercase;
+            text-align: center;
+            width: 35%;
+        }
+    }
+}
+@media screen and (max-width:500px){
+    .postcardContainer{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .topPostcard{
+            height: auto;
+            width: 80%;
+            position: relative;
+            h2{
+                width: 100%;
+                position: relative;
+                text-transform: uppercase;
+                left: auto;
+                display: flex;
+                align-items: center;
+                height: 100%;
+            }
+
+            p{
+                width: 100%;
+                position: relative;
+                right: auto;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                height: 100%;
+            }
+        }
+        .line{
+            width: 100%;
+            height: 1px;
+            margin: 30px 0;
+            background: rgb(165, 165, 165);
+        }
+        .photoPostcard{
+            width: 80%;
+            height: 450px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .descriptionImg{
+            height: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+            text-align: center;
+            span{
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 12px;
+                width: 80%;
+            }
+        }
+    }
+    
+}
+#blueboi{
+    background:rgba(48, 62, 113, 1);
+    color: white;
+}
+#whiteboi{
+    background:rgb(238, 238, 238);
+    color: black;
+}

@@ -1,5 +1,67 @@
+@font-face {
+  font-family: "mano";
+  src: url("./font/Caveat-Regular.ttf");
+}
+@font-face {
+  font-family: "serifMedium";
+  src: url("./font/saintecolombe-medium-TRIAL.otf");
+}
+@font-face {
+  font-family: "serifMediumItalic";
+  src: url("./font/saintecolombe-mediumitalic-TRIAL.otf");
+}
+@font-face {
+  font-family: "serifRegular";
+  src: url("./font/saintecolombe-regular-TRIAL.otf");
+}
+@font-face {
+  font-family: "normalMedium";
+  src: url("./font/Manrope-Medium.ttf");
+}
+@font-face {
+  font-family: "normalRegular";
+  src: url("./font/Manrope-Regular.ttf");
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+html{
+  overflow-x: hidden;
+}
+.testimony{
+  font-family: mano;
+  font-size: 1.2em;
+}
+h2{
+  font-family: serifMediumItalic;
+  text-transform: uppercase;
+}
+h1{
+  font-family: serifMedium;
+  text-transform: uppercase;
+}
+p{
+  font-family: normalRegular;
+  line-height: 110%;
+}
+.bigSentence{
+  font-family: serifMedium;
+  line-height: -19px;
+}
+.upSpan{
+  font-family: serifMediumItalic;
+}
+h3{
+  text-transform: uppercase;
+  font-family: normalRegular;
+  font-weight: 100;
+  margin: 0;
+}
+
 body {
   margin: 0;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +69,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.littleText{
+  font-family: normalRegular;
+  line-height: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html.has-scroll-smooth {
+  overflow: hidden; }
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.has-scroll-smooth body {
+  overflow: hidden; }
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh; }
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100vh;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0; }
+  .c-scrollbar:hover {
+    transform: scaleX(1.45); }
+  .c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
+    opacity: 1; }
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab; }
+  .has-scroll-dragging .c-scrollbar_thumb {
+    cursor: -webkit-grabbing;
+    cursor: grabbing; }

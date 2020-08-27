@@ -1,0 +1,132 @@
+.beachFront{
+    overflow: hidden;
+    .descriptionDeep{
+        display: flex;
+        background: rgb(38, 59, 97);
+        height: 90vh;
+        color: white;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        .descriptionContainer{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 100%;
+            justify-content:center;
+            align-items: center;
+            div{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 30px 60px;
+            }
+            h3,p{
+                width: 370px;
+            }
+            .price{
+                color: rgb(65, 73, 144);
+                font-size: 25px;
+                text-align: center;
+               line-height: 90%;
+                font-family: serif;
+                width: 240px;
+            }
+            .decorationSpan{
+                width: 240px;
+                color: black;
+                font-family: normalMedium;
+                font-size: 1.2em;
+                line-height: 100%;
+                margin-bottom: 24px;
+
+                text-align: center;
+            }
+            .lineSpan{
+                color: black;
+                width: 240px;
+                font-family: normalMedium;
+                font-size: 1.2em;
+                text-align: center;
+                margin-top: -29px;
+                margin-bottom: -6px;
+
+
+            }
+        }
+    }
+}
+.bgBoi{
+    background: url("https://images.unsplash.com/photo-1598275239648-b0eadf5f2bc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+}
+.bgOpacity{
+    background: rgba(255, 255, 255, 0.63);
+}
+@media screen and (max-width:500px){
+    .beachFront{
+        overflow: hidden;
+        .descriptionDeep{
+            display: flex;
+            background: rgb(38, 59, 97);
+            height: auto;
+            color: white;
+            width: 100%;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            .descriptionContainer{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 80vh;
+                justify-content:center;
+                align-items: center;
+                div{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding: 30px 23px;
+                }
+                h3,p{
+                    width: 90%;
+                }
+                .price{
+                    color: rgb(65, 73, 144);
+                    font-size: 25px;
+                    text-align: center;
+                   line-height: 90%;
+                    font-family: serif;
+                    width: 240px;
+                }
+                .decorationSpan{
+                    width: 240px;
+                    color: black;
+                    font-family: normalMedium;
+                    font-size: 1.2em;
+                    line-height: 100%;
+                    margin-bottom: 24px;
+    
+                    text-align: center;
+                }
+                .lineSpan{
+                    color: black;
+                    width: 240px;
+                    font-family: normalMedium;
+                    font-size: 1.2em;
+                    text-align: center;
+                    margin-top: -29px;
+                    margin-bottom: -6px;
+    
+    
+                }
+            }
+        }
+    }
+}
+.cruise{
+    .windowPackage{
+        a{display: none;}
+    }
+}

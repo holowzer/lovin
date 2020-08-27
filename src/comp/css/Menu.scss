@@ -1,0 +1,98 @@
+.activateMeMenu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+
+    .lineWhite{
+        width: 100%;
+        background: rgba(255, 255, 255, 0);
+        height: 0px;
+    }
+    .menuTitle{
+        color: wheat;
+        display: flex;
+        width: 100%;
+        height: 20%;
+        background: rgb(58, 38, 54);
+        transition: 0.3s ease all;
+        justify-content: center;
+        align-items: center;
+   
+        a{
+            text-decoration: none;
+            font-family: normalMedium;
+            font-size: 50px;
+                color: white;
+                text-transform: uppercase;
+        }
+    }
+    .menuTitle:hover{
+        background: rgba(0, 0, 0, 0);
+        transform: scale(1.1) ;
+        }
+}
+#bgMenu{
+ position: fixed;
+ width: 100vw;
+ height: 100vh;
+ top: 0;
+ left: 0;
+ filter: brightness(0.4) contrast(90%);
+}
+.activateButton {
+    position: fixed;
+    opacity: 0;
+    background: rgb(238, 238, 238);
+    width: 63px;
+    height: 63px;
+    transition: all 0.8s ease;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    font-size: 2em;
+    z-index: 101;
+    cursor: pointer;
+    img{
+        width: 40%;
+        height: auto;
+    }
+}
+.activateButtonOn{
+    opacity: 1;
+}
+.desactivateButton{
+    position: fixed;
+    top: 20px;left: 20px;
+    font-size: 2em;
+    z-index: 101;
+    cursor: pointer;
+}
+
+.globalBoi{
+    transform: translateY(-100vh);
+    transition: all 0.2s ease-in;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+
+}
+.inside{
+    transform: translateY(0vh);
+
+}
+
+@media screen and  (max-width:500px){
+   .activateMeMenu .menuTitle a{
+        text-align: center;
+        font-size: 26px;
+        width: 90%;
+    }
+}

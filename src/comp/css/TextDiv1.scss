@@ -1,0 +1,132 @@
+.textDiv1Container{
+    height: 100vh;
+    .upSpan{
+        height: 80px;
+        width: 100%;
+        position: relative;
+        span{
+            position: absolute;
+            bottom: 0;
+            left: 60px;
+            text-transform: uppercase;
+            font-style: oblique;
+            font-size: 40px;
+        }
+    }
+    .contentContainer{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        .textContent{
+            width: 35%;
+            h1{
+                margin: 0;
+                height: 40px;
+                overflow: hidden;
+            }
+            p{
+                width: 90%;
+            }
+        }
+        .photoContainer{
+            width: 45%;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .photoBooth{
+                width: 300px;
+                margin-left: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                overflow: hidden;
+                span{
+                    text-align: center;
+                    margin-top: 13px;
+                    font-size: 13px;
+                    font-weight: 800;
+                    width: 100%;
+                }
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+    .textDiv1Container{
+        height: auto;
+        .upSpan{
+            height: 80px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                text-transform: uppercase;
+                left: auto;
+                bottom: auto;
+                font-style: oblique;
+                font-size: 40px;
+            }
+        }
+        .contentContainer{
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .textContent{
+                width: 90%;
+                h1{
+                    margin: 0;
+                    height: 40px;
+                    overflow: hidden;
+                }
+                p{
+                    width: 90%;
+                }
+            }
+            .photoContainer{
+                width: 100%;
+                margin-top: 60px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .photoBooth{
+                    width: 90%;
+                    margin-left: 0px;
+                    margin-bottom: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-start;
+                    overflow: hidden;
+                    span{
+                        text-align: center;
+                        margin-top: 3px;
+                        font-size: 12px;
+                        width: 80%;
+                        letter-spacing: 0px;
+                    }
+                    img{
+                        width: 100%;
+                        margin-bottom: 10px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
