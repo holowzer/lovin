@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51cd48e7d53ddddc6c95d45de90622c1",
+    "revision": "83e51be6d5fe6f8aed38588df3a7ca11",
     "url": "/lovin/index.html"
   },
   {
-    "revision": "c65eb13cb9504233ee59",
-    "url": "/lovin/static/css/main.4427cf80.chunk.css"
+    "revision": "455df2dafd1f0f9069d6",
+    "url": "/lovin/static/css/main.e422c41e.chunk.css"
   },
   {
     "revision": "4c80ec41eb5752cffc21",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lovin/static/js/2.417debc5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c65eb13cb9504233ee59",
-    "url": "/lovin/static/js/main.1bc65a53.chunk.js"
+    "revision": "455df2dafd1f0f9069d6",
+    "url": "/lovin/static/js/main.4ba513a0.chunk.js"
   },
   {
     "revision": "09dd902a576ba2c1526b",
