@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/lovin/static/css/main.e422c41e.chunk.css",
-    "main.js": "/lovin/static/js/main.5bec1b27.chunk.js",
-    "main.js.map": "/lovin/static/js/main.5bec1b27.chunk.js.map",
+    "main.js": "/lovin/static/js/main.e23b9bea.chunk.js",
+    "main.js.map": "/lovin/static/js/main.e23b9bea.chunk.js.map",
     "runtime-main.js": "/lovin/static/js/runtime-main.f533776c.js",
     "runtime-main.js.map": "/lovin/static/js/runtime-main.f533776c.js.map",
-    "static/js/2.417debc5.chunk.js": "/lovin/static/js/2.417debc5.chunk.js",
-    "static/js/2.417debc5.chunk.js.map": "/lovin/static/js/2.417debc5.chunk.js.map",
+    "static/js/2.674ae29b.chunk.js": "/lovin/static/js/2.674ae29b.chunk.js",
+    "static/js/2.674ae29b.chunk.js.map": "/lovin/static/js/2.674ae29b.chunk.js.map",
     "index.html": "/lovin/index.html",
-    "precache-manifest.266d4b786d91296e7796099d4a78a50d.js": "/lovin/precache-manifest.266d4b786d91296e7796099d4a78a50d.js",
+    "precache-manifest.6634479f9a8a94ff24aba8f25bfbface.js": "/lovin/precache-manifest.6634479f9a8a94ff24aba8f25bfbface.js",
     "service-worker.js": "/lovin/service-worker.js",
     "static/css/main.e422c41e.chunk.css.map": "/lovin/static/css/main.e422c41e.chunk.css.map",
-    "static/js/2.417debc5.chunk.js.LICENSE.txt": "/lovin/static/js/2.417debc5.chunk.js.LICENSE.txt",
+    "static/js/2.674ae29b.chunk.js.LICENSE.txt": "/lovin/static/js/2.674ae29b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/lovin/static/media/saintecolombe-regular-TRIAL.1af5fab2.otf",
     "static/media/Cruisetrip1.jpg": "/lovin/static/media/Cruisetrip1.d06c6994.jpg",
     "static/media/badge1.png": "/lovin/static/media/badge1.37cd7a53.png",
@@ -56,8 +56,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f533776c.js",
-    "static/js/2.417debc5.chunk.js",
+    "static/js/2.674ae29b.chunk.js",
     "static/css/main.e422c41e.chunk.css",
-    "static/js/main.5bec1b27.chunk.js"
+    "static/js/main.e23b9bea.chunk.js"
   ]
 }
