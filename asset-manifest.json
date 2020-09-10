@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lovin/static/css/main.e422c41e.chunk.css",
-    "main.js": "/lovin/static/js/main.4ba513a0.chunk.js",
-    "main.js.map": "/lovin/static/js/main.4ba513a0.chunk.js.map",
+    "main.js": "/lovin/static/js/main.5bec1b27.chunk.js",
+    "main.js.map": "/lovin/static/js/main.5bec1b27.chunk.js.map",
     "runtime-main.js": "/lovin/static/js/runtime-main.f533776c.js",
     "runtime-main.js.map": "/lovin/static/js/runtime-main.f533776c.js.map",
     "static/js/2.417debc5.chunk.js": "/lovin/static/js/2.417debc5.chunk.js",
     "static/js/2.417debc5.chunk.js.map": "/lovin/static/js/2.417debc5.chunk.js.map",
     "index.html": "/lovin/index.html",
-    "precache-manifest.7da6c5e9373d66b78eb6d3f466712cf9.js": "/lovin/precache-manifest.7da6c5e9373d66b78eb6d3f466712cf9.js",
+    "precache-manifest.266d4b786d91296e7796099d4a78a50d.js": "/lovin/precache-manifest.266d4b786d91296e7796099d4a78a50d.js",
     "service-worker.js": "/lovin/service-worker.js",
     "static/css/main.e422c41e.chunk.css.map": "/lovin/static/css/main.e422c41e.chunk.css.map",
     "static/js/2.417debc5.chunk.js.LICENSE.txt": "/lovin/static/js/2.417debc5.chunk.js.LICENSE.txt",
@@ -58,6 +58,6 @@
     "static/js/runtime-main.f533776c.js",
     "static/js/2.417debc5.chunk.js",
     "static/css/main.e422c41e.chunk.css",
-    "static/js/main.4ba513a0.chunk.js"
+    "static/js/main.5bec1b27.chunk.js"
   ]
 }
